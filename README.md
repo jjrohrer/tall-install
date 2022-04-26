@@ -1,72 +1,38 @@
 ![Tall-Install Banner](https://github.com/ralphjsmit/tall-install/blob/main/docs/images/tall-install.jpg)
 
 # Easy command to install the TALL-stack & jumpstart development🚀
-
-[![Run Package Tests](https://github.com/ralphjsmit/tall-install/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/ralphjsmit/tall-install/actions/workflows/run-tests.yml)
-[![Run Laravel Tests (Pest) (normal version)](https://github.com/ralphjsmit/tall-install-demo/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/ralphjsmit/tall-install-demo/actions/workflows/run-tests.yml)
-[![Run Laravel Tests (Pest) (DDD-version)](https://github.com/ralphjsmit/tall-install-ddd-demo/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/ralphjsmit/tall-install-ddd-demo/actions/workflows/run-tests.yml)
+Forked from https://github.com/ralphjsmit/tall-install
 
 This package provides a **simple artisan command for Laravel** that can **fully scaffold** your application and **jumpstart development**.
 
 **It basically runs the installation process for all of your favourite packages, so that you can start developing right away!**
 
-**[⚡️ Check out the release article and subscribe to my newsletter for updates](https://ralphjsmit.com/laravel-tall-install/)**
-
-## Demo projects
-
-👉 **[Check out a demo-project file's structure](https://github.com/ralphjsmit/tall-install-demo)**
-
-👉 **[Check out a demo-project with an automatically generated Domain-Driven file structure](https://github.com/ralphjsmit/tall-install-ddd-demo)**
-
 ## Features
-
-1. It runs the regular installation process for your favourite TALL-tools, so that you don't have to 🚀
-2. Install Pest instead of PHPUnit ⚙️
-3. Configure a Domain-Driven file structure (DDD)✨
-4. Install Browsersync for Valet users ⚡️
-
-### What does it install?
-
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind CSS Forms](https://tailwindcss.com/docs/plugins#forms)
+- Laravel w/ Breeze
+- Livewire
+- Filamentphp
+  - Tailwind Css 
+  - Alpine.js 
+  - Form Builder (built-in)
+  - Table Builder (built-in)
 - [Tailwind CSS Typography](https://tailwindcss.com/docs/plugins#typography)
-- [Alpine.js](https://alpinejs.dev)
-- [Alpine.js Trap](https://alpinejs.dev/plugins/trap)
-- [Filament Admin Form Builder](https://filamentadmin.com/docs/2.x/forms/installation)
-- [Filament Admin Table Builder](https://filamentadmin.com/docs/2.x/tables/installation)
-- [Laravel Livewire](https://laravel-livewire.com)
 - [Toast TALL-notifications](https://github.com/usernotnull/tall-toasts)
 
 #### What can it install?
 
 This package can also do the following things for you:
-
-- [Configure Browsersync for Laravel Valet users](https://ralphjsmit.com/laravel-valet-browsersync/)
 - [Install Pest testing framework instead of PHPUnit](https://pestphp.com)
-- Configure a DDD-file structure.
-
-#### Roadmap
-
-- Fortify installation
-
-The intention of this package is to do all the backend installation and not force you into anything frontend-wise.
-
-Missing your favourite package? Feel free to submit an issue or a PR with your proposal.
 
 ## Contents
 
 1. [Installation & usage](#installation--usage)
-2. [Configure DDD](#configure-ddd-with-tall-install---ddd)
 3. [Install Pest](#install-pest-with-tall-install---pest)
-4. [Install Browsersync](#install-browsersync-with-tall-install---browsersync)
 
 ## Installation & usage
 
 To get started, you need a plain Laravel installation:
 
 ```bash
-laravel new name
-# or
 composer create-project laravel/laravel name
 ```
 

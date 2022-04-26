@@ -1,6 +1,6 @@
 {
-  "name": "ralphjsmit/tall-install",
-  "description": "Quickly scaffold a new Laravel-installation that uses the TALL-stack and install several opinionated packages.",
+  "name": "jjrohrer/tall-install",
+  "description": "WIP - fork of ralphjsmit's tall-install. Probably not usefule to anyone else ",
   "keywords": [
     "ralphjsmit",
     "laravel",
